@@ -76,7 +76,7 @@ plot_spider <- function(samples,reference_values,logscale=TRUE,colors=NULL,main=
 }
 samples <- list(ree_sample1)
 
-plot_spider(samples, ree_ref,main = "REE Spider Diagram (Sample 19, Ref Col 14)")
+plot_spider(samples, ree_ref,main = "REE Spider Diagram (Sample 19, Reference: m&s )")
 ```
 
 
