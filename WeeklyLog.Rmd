@@ -41,9 +41,8 @@ In a Spider Diagram, we will be representing the log normalised concentrations o
 La-Lanthanum, Ce- Cerium, Pr- Praseodymium, Nd- Neodymium, Pm- Promethium, Sm- Samarium, Eu- Europium, Gd- Gadolinium,, Tb- Terbium, Dy- Dysprosium, Ho- Holmium, Er- Erbium, Tm- Thulium, Yb- Ytterbium, Lu- Lutetium 
 ```{r}
 #downloading dataset
-setwd("~/Desktop/MSci Project /Rock data for Spider Diagrams")
-adakite <- read.csv(file = 'ADAKITE.csv')
-ref <- read.csv(file='normalised values.csv')
+adakite <- read.csv(file = 'Data/ADAKITE.csv')
+ref <- read.csv(file='Data/Normalised Values.csv')
 # gathering REE data from sample
 ree_sample1 <- as.numeric(adakite[19, 119:132])
 #
